@@ -1,0 +1,4 @@
+interface:
+  display_name: "출제 원리와 문항 검토"
+  short_description: "문항 설계부터 인지 부하·채점 기준·인쇄 검수까지 연결하는 출제 원리"
+  default_prompt: "$checkyboard-authoring을 사용해 학습 범위와 근거에 맞는 평가 문항을 만들고 검수해 주세요."

@@ -1,0 +1,11 @@
+{
+  "description": "Synthetic graph, unrelated to a real classroom exam. Edges run from food to consumer.",
+  "nodes": ["plant-a", "plant-b", "herbivore-a", "herbivore-b", "larva-c", "consumer-d", "predator-e"],
+  "producers": ["plant-a", "plant-b"],
+  "edges": [
+    ["plant-a", "herbivore-a"], ["plant-a", "herbivore-b"],
+    ["plant-b", "larva-c"], ["herbivore-a", "consumer-d"],
+    ["larva-c", "consumer-d"], ["consumer-d", "predator-e"],
+    ["herbivore-b", "predator-e"]
+  ]
+}
