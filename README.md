@@ -2,15 +2,16 @@
 
 학습 목표와 근거에 맞는 문항을 만들고, 정답·해설·채점 기준·인지 부하·인쇄 결과를 함께 검토하는 공개 교육용 스킬입니다. 특정 프로그램에 연결하지 않아도 문항 초안과 자료에 적용할 수 있습니다.
 
-**[스킬 본문](skills/checkyboard-authoring/SKILL.md)** · **[AGPL-3.0](LICENSE)** · 기준일: 2026-11-10
+**[스킬 본문](skills/checkyboard-authoring/SKILL.md)** · **[AGPL-3.0](LICENSE)** · 기준일: 2026-11-11
 
 ## 사용
 
 `skills/checkyboard-authoring` 폴더를 Codex의 사용자 스킬 폴더에 복사합니다. 기본 위치는 `~/.codex/skills/checkyboard-authoring`입니다. 다른 에이전트에서도 본문과 필요한 참고 자료를 읽어 적용할 수 있습니다.
 
 ```text
-$checkyboard-authoring 이 문항의 상황과 판단 근거를 명확하게 하고,
-정답·해설·부분점수·답란과 학생의 인지 부하를 함께 검토해 줘.
+$checkyboard-authoring 4학년 아이가 이 시험을 처음 푸는 입장에서
+문항마다 찾을 정보와 할 판단, 남길 답을 짚어 줘.
+번호순으로 부담이 쌓이는 구간과 다음 출제에 반영할 점도 알려 줘.
 ```
 
 ## 담은 원리
@@ -18,7 +19,7 @@ $checkyboard-authoring 이 문항의 상황과 판단 근거를 명확하게 하
 | 주제 | 자료 |
 |---|---|
 | 목표 → 자료 → 판단 → 정답 → 채점 증거 | [출제 원리와 전체 검수](skills/checkyboard-authoring/references/authoring-principles.md) |
-| 불필요한 읽기·기억·탐색 부담 | [인지 부하](skills/checkyboard-authoring/references/cognitive-load.md) |
+| 문항별 첫 풀이와 시험 전체에서 부담이 쌓이는 구간 | [인지 부하와 첫 풀이 검수](skills/checkyboard-authoring/references/cognitive-load.md) |
 | 모두/한 가지, 타당한 대안, 부분점수 | [정답과 채점](skills/checkyboard-authoring/references/review-and-rubrics.md) |
 | 그림·표·답란·학생용과 교사용 출력 | [자료와 인쇄](skills/checkyboard-authoring/references/materials-and-print.md) |
 | 과학·수학·수업 범위·견본 문체 | [과목별 범위](skills/checkyboard-authoring/references/subject-profiles.md) |
